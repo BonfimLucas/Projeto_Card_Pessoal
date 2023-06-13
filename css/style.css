@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.515), rgba(0, 0, 0, 0.515)),url('../imagens/2957959.jpg');
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu{
+    width: 280px;
+    height: 458px;
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.gif_tamanho{
+    height: 65.94px;
+    width: 280px;
+}
+
+
+#icone{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#textos{
+   position: relative;
+   margin-top: 100px;
+}
+
+#nome{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#stack{
+    font-size: 10px;
+}
