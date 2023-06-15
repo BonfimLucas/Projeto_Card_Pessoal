@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0.786)),url('../imagens/2957959.jpg');
     color: white;
     font-family: 'Inter', sans-serif;
     background-size: 100%;
+    
+    
 }
 
 #menu{
@@ -14,11 +17,12 @@ body{
     background-color: rgb(31, 30, 30);
     text-align: center;
     align-items: center;
-    box-shadow: black 1px 20px 20px; 
+    box-shadow: rgba(0, 0, 0, 0.922) 1px 20px 20px; 
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 
@@ -29,11 +33,13 @@ body{
 }
 
 #gif_cima{
-    box-shadow: black 2px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.616) 2px 5px 10px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #imagem_baixo{
-    box-shadow: black -2px -5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) -2px -5px 10px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 #icone{
